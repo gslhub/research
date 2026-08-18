@@ -8,8 +8,8 @@ authors:
     affiliation: "GSLHub — Generative Search Lab Hub"
 repository-code: "https://github.com/gslhub/research"
 url: "https://gslhub.com/research"
-license: "other"
-abstract: "Research protocols, methodological documentation and reproducibility materials for GSLHub studies on Generative Search, Generative Engine Optimization (GEO), AI-system evaluation and governed evidence."
+license: "CC-BY-4.0"
+abstract: "Canonical research protocols, methodological documentation, codebooks and reproducibility materials for GSLHub studies on Generative Search, Generative Engine Optimization (GEO), AI-system evaluation and governed evidence."
 keywords:
   - generative search
   - generative engine optimization
@@ -17,3 +17,5 @@ keywords:
   - AI evaluation
   - reproducible research
   - open science
+  - citation analysis
+  - research methodology
