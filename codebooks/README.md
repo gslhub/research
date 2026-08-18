@@ -2,6 +2,12 @@
 
 Codebooks translate observable generative-system behavior into structured research variables.
 
+## Current codebooks
+
+- [`OBSERVATIONS-CITATIONS-v0.1.0-ES.md`](OBSERVATIONS-CITATIONS-v0.1.0-ES.md) — canonical Spanish observation and citation codebook for the first controlled GEO pilot lineage.
+
+It defines coding, review, inclusion, exclusion, validation, citation verification, target matching and quality-control rules used by the AIR, CR, MCP and RCR methodology.
+
 ## Principles
 
 A codebook should:
@@ -16,14 +22,6 @@ A codebook should:
 - include a version and status;
 - record material amendments through versioning.
 
-## Observation and citation coding
-
-The current platform includes a detailed Spanish codebook for observations and citations:
-
-- `docs/CODEBOOK_OBSERVACIONES_CITAS_ES.md` in `gslhub/website`.
-
-Approved research codebooks can be migrated here as canonical methodological documents before this repository is opened publicly.
-
 ## Reliability
 
 Where a study involves multiple coders or subjective classifications, the study documentation should state:
@@ -33,3 +31,9 @@ Where a study involves multiple coders or subjective classifications, the study 
 - disagreement-resolution procedure;
 - inter-rater reliability measure when applicable;
 - final adjudication policy.
+
+## Versioning
+
+Material rule changes must produce a new codebook version. Existing coded records retain the version used for their original coding; recoding should be explicit rather than silently retroactive.
+
+Except where otherwise noted, original codebook documentation is licensed under **CC BY 4.0**.
