@@ -6,7 +6,7 @@
 
 **Canonical protocols, methodology, codebooks and public study materials for GSLHub**
 
-[Website](https://gslhub.com) · [Research platform](https://github.com/gslhub/website) · [Organization](https://github.com/gslhub)
+[Website](https://gslhub.com) · [Platform](https://github.com/gslhub/website) · [Benchmarks](https://github.com/gslhub/benchmarks) · [Software](https://github.com/gslhub/software) · [Organization](https://github.com/gslhub)
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
@@ -59,7 +59,23 @@ See the canonical [`Project Matrix`](methodology/PROJECT-MATRIX.md).
 | **MCP** | Mean Citation Position | Mean visible citation position for eligible citations |
 | **RCR** | Response Consistency Rate | Consistency across controlled repeated responses under the defined coding rule |
 
-Metric definitions are versioned and validated separately from individual results.
+Metric definitions and individual results are versioned separately.
+
+### Specification and implementation boundary
+
+This repository defines the **research meaning, coding rules and protocol context**. The versioned normative benchmark specifications live in [`gslhub/benchmarks`](https://github.com/gslhub/benchmarks), while the reusable deterministic implementations live in [`gslhub/software`](https://github.com/gslhub/software).
+
+The first reusable implementation, [`@gslhub/metrics-core`](https://github.com/gslhub/software/tree/main/packages/metrics-core), calculates AIR, CR, MCP and RCR independently of Payload CMS, MongoDB or Next.js. Its automated tests reproduce the synthetic validation fixture published by the benchmark repository; those fixture values are software-validation data, **not empirical research findings**.
+
+This separation supports an auditable chain:
+
+```text
+research meaning / coding rules
+→ benchmark specification
+→ independent software implementation
+→ governed platform integration
+→ validated research result
+```
 
 ## Canonical methodological materials
 
