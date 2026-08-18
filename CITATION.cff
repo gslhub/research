@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use GSLHub research protocols or methodological materials, please cite this repository and the relevant study or publication when available."
+title: "GSLHub Research: Generative Search, GEO and Reproducible AI Research"
+type: software
+authors:
+  - family-names: "Yauri"
+    given-names: "Eduardo"
+    affiliation: "GSLHub — Generative Search Lab Hub"
+repository-code: "https://github.com/gslhub/research"
+url: "https://gslhub.com/research"
+license: "other"
+abstract: "Research protocols, methodological documentation and reproducibility materials for GSLHub studies on Generative Search, Generative Engine Optimization (GEO), AI-system evaluation and governed evidence."
+keywords:
+  - generative search
+  - generative engine optimization
+  - GEO
+  - AI evaluation
+  - reproducible research
+  - open science
