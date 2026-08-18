@@ -6,6 +6,8 @@
 
 **Canonical protocols, methodology, codebooks and public study materials for GSLHub**
 
+**English** · [Español](./README.es.md)
+
 [Website](https://gslhub.com) · [Platform](https://github.com/gslhub/website) · [Benchmarks](https://github.com/gslhub/benchmarks) · [Software](https://github.com/gslhub/software) · [Organization](https://github.com/gslhub)
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
