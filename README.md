@@ -4,9 +4,11 @@
 
 ### Generative Search · GEO · AI Evaluation · Reproducible Research
 
-**Research protocols, methodological documentation and study materials for GSLHub**
+**Canonical protocols, methodology, codebooks and public study materials for GSLHub**
 
 [Website](https://gslhub.com) · [Research platform](https://github.com/gslhub/website) · [Organization](https://github.com/gslhub)
+
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 </div>
 
@@ -14,15 +16,13 @@
 
 ## Purpose
 
-This repository is the methodological research layer of **GSLHub — Generative Search Lab Hub**.
+This repository is the **canonical methodological research layer** of **GSLHub — Generative Search Lab Hub**.
 
 GSLHub investigates how generative AI systems **discover, select, cite and recommend information**, with particular emphasis on **Generative Search** and **Generative Engine Optimization (GEO)**.
 
-The repository is designed to make research protocols, study definitions, methodological decisions and reproducibility materials inspectable independently from the application code that executes and governs the research workflow.
+The repository separates scientific methodology from the application code that executes and governs the research workflow. Protocols, codebooks, methodological decisions and reproducibility materials can therefore be inspected, cited and versioned independently from the software platform.
 
-## Research model
-
-GSLHub follows a traceable chain:
+## Canonical research model
 
 ```text
 Scientific problem
@@ -39,6 +39,8 @@ Scientific problem
 
 A metric is not treated as an isolated number. Where methodology requires it, the result must remain traceable through governed observations and executions to preserved evidence.
 
+See the canonical [`Project Matrix`](methodology/PROJECT-MATRIX.md).
+
 ## Current research focus
 
 - **Generative Search** — how generative systems retrieve, synthesize and surface information.
@@ -50,8 +52,6 @@ A metric is not treated as an isolated number. Where methodology requires it, th
 
 ## Core metrics
 
-The current GSLHub methodology includes four governed metric families:
-
 | Code | Metric | Purpose |
 |---|---|---|
 | **AIR** | Answer Inclusion Rate | Frequency with which a defined target appears in eligible answers |
@@ -60,6 +60,20 @@ The current GSLHub methodology includes four governed metric families:
 | **RCR** | Response Consistency Rate | Consistency across controlled repeated responses under the defined coding rule |
 
 Metric definitions are versioned and validated separately from individual results.
+
+## Canonical methodological materials
+
+### Project model
+
+- [`methodology/PROJECT-MATRIX.md`](methodology/PROJECT-MATRIX.md) — conceptual and operational model linking scientific problem, hypotheses, experiments, executions, evidence, observations, citations, metrics and reproducibility.
+
+### First controlled GEO pilot
+
+- [`protocols/GSL-GEO-BENCH-01/PILOT-PROTOCOL-v0.1.0-ES.md`](protocols/GSL-GEO-BENCH-01/PILOT-PROTOCOL-v0.1.0-ES.md) — five controlled independent repetitions, evidence preservation, execution-context capture, exclusion rules and metric calculation.
+
+### Observation and citation codebook
+
+- [`codebooks/OBSERVATIONS-CITATIONS-v0.1.0-ES.md`](codebooks/OBSERVATIONS-CITATIONS-v0.1.0-ES.md) — formal coding, review, inclusion, exclusion and validation rules for observations and citations.
 
 ## Repository structure
 
@@ -70,7 +84,10 @@ research/
 ├── codebooks/       # Coding rules for observations, citations and evidence
 ├── methodology/     # Stable methodological principles and research governance
 ├── templates/       # Reusable study/protocol templates
-└── LICENSING.md     # Licensing model for research outputs
+├── CITATION.cff     # Repository citation metadata
+├── LICENSE          # CC BY 4.0 legal code
+├── NOTICE.md        # Copyright, attribution and exclusions
+└── LICENSING.md     # Licensing model by research-output type
 ```
 
 ## Development vs. research data
@@ -102,23 +119,17 @@ GSLHub research is designed around:
 - documented deviations rather than silent replacement;
 - independent review where the study design requires it.
 
-See [`methodology/REPRODUCIBILITY.md`](methodology/REPRODUCIBILITY.md).
-
-## Research integrity
-
-Research records should preserve what was actually observed. Responses, citations and evidence must not be silently corrected or rewritten after capture.
-
-Methodological changes require versioning. Excluded or failed executions are retained with an explicit reason rather than deleted from the research history.
-
-See [`methodology/GOVERNANCE.md`](methodology/GOVERNANCE.md).
-
-## Status
-
-This repository is being prepared as the public methodological companion to the GSLHub research platform. Research materials are opened progressively after methodological review and removal of restricted or operational information.
+See [`methodology/REPRODUCIBILITY.md`](methodology/REPRODUCIBILITY.md) and [`methodology/GOVERNANCE.md`](methodology/GOVERNANCE.md).
 
 ## Licensing
 
-Software, research documentation, datasets, publications and brand assets do not necessarily share the same license. See [`LICENSING.md`](LICENSING.md) before reusing materials from this repository.
+Except where a file or output explicitly states otherwise, **original research documentation in this repository is licensed under CC BY 4.0**.
+
+Datasets, publications, software, third-party materials and GSLHub brand assets may use different licenses or terms. See [`LICENSE`](LICENSE), [`NOTICE.md`](NOTICE.md) and [`LICENSING.md`](LICENSING.md).
+
+## Citation
+
+This repository includes [`CITATION.cff`](CITATION.cff). When a study or publication provides its own citation instructions, cite that specific output in addition to the repository where appropriate.
 
 ## Contact
 
@@ -126,4 +137,4 @@ Research collaboration and methodological questions: **research@gslhub.com**
 
 ---
 
-© 2026 GSLHub / Eduardo Yauri
+© 2026 Eduardo Yauri · GSLHub — Generative Search Lab Hub
