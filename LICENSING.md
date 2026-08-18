@@ -1,45 +1,64 @@
 # GSLHub Research Licensing Model
 
-GSLHub separates licenses by **type of output** rather than applying the software license to every research artifact.
+GSLHub separates licenses by **type of output** rather than applying one license to software, research documentation, datasets, publications and brand assets.
+
+## Research documentation — CC BY 4.0
+
+Except where a file or directory explicitly states otherwise, the **original research documentation** in this repository is licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
+
+This includes original:
+
+- research protocols;
+- methodological documentation;
+- codebooks;
+- study descriptions;
+- research-governance documents;
+- reusable research templates.
+
+See [`LICENSE`](LICENSE) for the legal code and [`NOTICE.md`](NOTICE.md) for attribution guidance and exclusions.
+
+Under CC BY 4.0, licensed material may be shared and adapted, including for commercial purposes, provided the license conditions — particularly attribution and indication of changes — are followed.
 
 ## Software
 
-Software in the main GSLHub platform is governed by the license stated in its repository. The primary [`gslhub/website`](https://github.com/gslhub/website) platform is released under **GNU AGPL-3.0**.
+Software is governed by the license stated in its software repository. The primary [`gslhub/website`](https://github.com/gslhub/website) research platform is released under **GNU AGPL-3.0-only**.
 
-## Research documentation
-
-Research protocols, methodological documentation, codebooks and study descriptions in this repository are being prepared for an open-research release.
-
-Until a specific license notice is attached to a document or this repository receives a blanket research-documentation license, **no additional reuse rights should be assumed beyond those provided by applicable law and GitHub's terms**.
-
-The intended default for original public research documentation is **Creative Commons Attribution 4.0 International (CC BY 4.0)**, subject to final review before this repository is made public.
+A research document being CC BY 4.0 does not change the license of software code referenced by that document.
 
 ## Datasets
 
-Datasets are licensed separately because their permitted use can depend on:
+Datasets are licensed separately because permitted reuse can depend on:
 
 - source-data rights;
 - privacy and research-ethics constraints;
 - third-party terms;
 - whether the dataset contains derived or original material;
-- methodological restrictions needed for responsible reuse.
+- methodological or responsible-reuse restrictions.
 
-The canonical dataset license must be stated with each released dataset.
+The canonical dataset license must be stated with each released dataset. Do not infer CC BY 4.0 for a dataset solely because it is referenced from this repository.
 
 ## Publications
 
 Articles, preprints, reports and other publications use the license or publisher terms stated with the individual publication.
 
-## Brand assets
+## Brand assets and trademarks
 
-The GSLHub name, logo, icon and other brand identifiers are **not covered by AGPL-3.0 or any research-documentation license**. See the separate [`gslhub/branding`](https://github.com/gslhub/branding) repository for brand usage terms once it is public.
+The GSLHub name, logo, icon and other brand identifiers are **not licensed by CC BY 4.0 or AGPL-3.0** merely because they appear in GSLHub repositories.
+
+See [`gslhub/branding`](https://github.com/gslhub/branding) for approved assets and brand usage terms.
 
 ## Third-party material
 
-Third-party material remains governed by its original license and terms. Inclusion or citation within GSLHub research does not transfer ownership or relicense third-party content.
+Third-party material remains governed by its original license and terms. Inclusion, quotation, citation or reference within GSLHub research does not transfer ownership or relicense third-party content.
+
+## Canonical-source rule
+
+When a methodological document has been migrated from another GSLHub repository, the copy in **`gslhub/research`** is the canonical source unless the document itself states otherwise.
+
+Operational implementation documentation can remain in `gslhub/website`, while scientific methodology, protocols and codebooks should be maintained here.
 
 ## Before reuse
 
-Always check the nearest applicable `LICENSE`, license notice, dataset metadata or publication record before reusing GSLHub material.
+Always check the nearest applicable `LICENSE`, license notice, dataset metadata, publication record or file-level notice before reusing GSLHub material.
 
 For licensing questions: **research@gslhub.com**.
